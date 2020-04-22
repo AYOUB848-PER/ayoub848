@@ -9,7 +9,7 @@
 </head>
 <body>
 	<header>
-	<h1>Our menu</h1>
+		<center><h1>Our menu</h1></center>
 	</header>
 <div class="row">
 	<div class="col-lg-4 col-md-6 col-sm-12">
