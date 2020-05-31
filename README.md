@@ -1,7 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8">
+<style>
+	@import url('https:fonts.googleapis.com/css?family=Poppins:400,500,700');
+html, body{
+	height: 100%;
+	width: 100%;
+	font-family: 'poppins', sans-serif;
+	color: #222;
+
+
+
+}
+.navbar {
+	padding: .8rem;
+
+
+}
+.navbar-nav li {
+	padding-right: 20px;
+}
+.nav-link{
+	font-size: 1. 1em !important;
+}
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+.carousel-caption{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1 {
+	font-size: 500%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3 {
+ font-size: 200%;
+ font-weight: 500;
+ text-shadow: 1px 1px 10px #000;
+ padding: 1rem;
+
+
+}
+.btn-primary {
+	background-color: #6648b11;
+	border: 1px solid #563d7c;
+}
+.btn-primary:hover {
+	background-color: #563d7c;
+	border: 1px solid #563d7c;
+}
+.jumbotron {
+	padding: 1rem;
+	border-radius: 0;
+}
+.padding {
+	padding-bottom: 2rem;
+}
+.welcome {
+	width: 75%;
+	height: 0 auto;
+	padding-top: 2rem;
+}
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+.fa-code {
+	color: #e5d426;
+
+}
+.fa-bold {
+	color: blue;
+
+}
+.fa-css3 {
+	color: red;
+}
+.fa-code, .fa-bold, .fa-css3 {
+	font-size: 4em;
+	margin: 1rem; 
+}
+
+.social a {
+	 padding: 3rem;
+     font-size: 4.5em;
+    
+}
+
+
+
+.fa-facebook {
+  
+  color: #3B5998;
+}
+
+.fa-twitter {
+ 
+  color: #55ACEE;
+}
+
+.fa-google {
+  
+  color: #dd4b39;
+}
+
+.fa-linkedin {
+   
+  color: #007bb5;
+}
+
+.fa-youtube {
+  
+  color: #bb0000;
+}
+
+.fa-instagram {
+   color: #125688;
+ 
+}
+
+.fa-pinterest {
+  color: #cb2027;
+ 
+}
+.fa-google:hover,
+.fa-pinterest:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-facebook:hover,
+.fa-twitter:hover {
+	color: #d5d5d5;
+
+}
+footer {
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem
+}
+hr.light {
+	border-top: 1px solid #d5d5d5;
+	width: 75px;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+footer a {
+	color: #d5d5d5;
+
+}
+hr.light-100 {
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+
+
+}
+
+
+
+/*---Media queries --*/
+
+@media (max-width: 992px) {
+	.social a {
+		font-size: 4em;
+		padding: 2rem;
+
+	}
+}
+@media (max-width: 768px) {
+.carousel-caption{
+	top: 45%;
+
+}
+.carousel-caption h1 {
+	font-size: 530%;
+}
+.carousel-caption h3 {
+ font-size: 140%;
+ font-weight: 400;
+ padding-bottom: .2rem;
+}
+..carousel-caption .btn  {
+	font-size: 95%;
+	padding-top: 8px 14px;
+}
+
+}
+@media (max-width: 576px) {
+
+}
+/*---Firefox bug fix --*/
+.carousel-item {
+	transform: 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ccc</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
